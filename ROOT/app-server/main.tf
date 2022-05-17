@@ -8,5 +8,6 @@ module "app-vpc" {
 }
 
 module "app-server" {
-  source = ""  
+ # source = "git::https://github.com/123ASLIDDIN/terra-module.git/CHILD/EC2" 
+ source = "../../CHILD/EC2" 
 }
