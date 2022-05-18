@@ -8,6 +8,7 @@ module "app-vpc" {
 }
 
 module "app-server" {
- # source = "git::https://github.com/123ASLIDDIN/terra-module.git/CHILD/EC2" 
- source = "../../CHILD/EC2" 
+  source = "git::https://github.com/123ASLIDDIN/terra-module.git/CHILD/EC2" 
+ #source = "../../CHILD/EC2" 
+ #source = "git::https://github.com/102vosit/terraform-module.git/CHILD/EC2"
 }
